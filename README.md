@@ -1,4 +1,4 @@
-# Personal Finance App
+# Personal Finance App by chvyl
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
