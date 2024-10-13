@@ -1,63 +1,41 @@
-/* App.css */
 .App {
   text-align: center;
-  background-color: #f7f9fc;
+  background-color: #f8f9fa; /* Màu nền nhạt hơn */
   min-height: 100vh;
   display: flex;
   flex-direction: column;
   align-items: center;
-  justify-content: center;
+  justify-content: flex-start;
   font-family: 'Arial', sans-serif;
   padding: 20px;
 }
 
 .App-header {
-  background-color: #4caf50;
+  background-color: #007bff; 
   color: white;
-  padding: 20px;
+  padding: 40px;
   border-radius: 12px;
-  box-shadow: 0 2px 15px rgba(0, 0, 0, 0.1);
+  box-shadow: 0 4px 20px rgba(0, 0, 0, 0.1);
   width: 100%;
   max-width: 600px;
   margin-bottom: 30px;
-}
-
-h1 {
-  font-size: 2rem;
-  margin-bottom: 10px;
 }
 
 .expense-list {
   width: 100%;
   max-width: 600px;
   background-color: white;
-  border-radius: 12px;
+  border-radius: 8px;
   box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
   padding: 20px;
   margin-bottom: 20px;
 }
 
-ul {
-  list-style-type: none;
-  padding: 0;
-  margin: 0;
-}
-
 li {
-  display: flex;
-  justify-content: space-between;
   padding: 10px 0;
   border-bottom: 1px solid #ddd;
-  font-size: 1rem;
 }
 
-li:last-child {
-  border-bottom: none;
-}
-
-.total-amount {
-  font-size: 1.5rem;
-  font-weight: bold;
-  color: #4caf50;
-  margin-top: 20px;
+li:hover {
+  background-color: #f1f1f1;
 }
